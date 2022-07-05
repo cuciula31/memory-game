@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane fx:id="mainPane" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #CAD3C8;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.controller.Controller">
+   <children>
+      <GridPane fx:id="gridPane" hgap="20.0" layoutX="120.0" layoutY="112.0" prefHeight="524.0" prefWidth="750.0" vgap="20.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+          <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+          <ColumnConstraints hgrow="SOMETIMES" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints vgrow="SOMETIMES" />
+          <RowConstraints vgrow="SOMETIMES" />
+          <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Pane fx:id="pane1" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text1" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane2" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="1">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text2" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane3" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="2">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text3" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane4" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="3">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text4" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane5" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="5">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text5" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane6" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.rowIndex="1">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text6" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane7" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text7" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane8" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text8" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane9" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text9" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane10" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text10" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane11" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.rowIndex="2">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text11" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane12" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text12" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane13" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text13" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane14" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text14" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane15" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="4.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text15" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane15" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.rowIndex="3">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text16" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane16" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text17" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane17" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text18" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane18" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text19" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane19" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text20" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane51" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="4">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text51" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane52" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text52" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane53" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text53" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <Pane fx:id="pane191" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #7bed9f; -fx-background-radius: 15;" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <children>
+                  <FlowPane alignment="CENTER" layoutX="3.0" layoutY="15.0" prefHeight="85.0" prefWidth="102.0">
+                     <children>
+                        <Text fx:id="text201" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: impact; -fx-font-size: 30;" text="1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+         </children>
+         <effect>
+            <DropShadow height="38.79" radius="14.4475" spread="0.21" />
+         </effect>
+      </GridPane>
+      <Pane fx:id="initPane" layoutY="-1200.0" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #CAD3C8;">
+         <children>
+            <JFXButton layoutX="390.0" layoutY="561.0" onMouseReleased="#playReleased" style="-fx-background-color: lightGreen; -fx-font-family: impact; -fx-font-size: 60; -fx-background-radius: 15; -fx-text-fill: white;" text="Joacă" />
+            <Text fill="WHITE" layoutX="179.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 110; -fx-font-family: impact;" text="Memory Game">
+               <effect>
+                  <DropShadow height="53.56" radius="27.035" spread="0.58" width="56.58" />
+               </effect>
+            </Text>
+         </children>
+      </Pane>
+      <Pane fx:id="menuPane" layoutY="-1200.0" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #CAD3C8;">
+         <children>
+            <Text fill="WHITE" layoutX="280.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 110; -fx-font-family: impact;" text="Ai câștigat">
+               <effect>
+                  <DropShadow height="53.56" radius="27.035" spread="0.58" width="56.58" />
+               </effect>
+            </Text>
+            <JFXButton layoutX="284.0" layoutY="536.0" onMouseReleased="#menuReleased" style="-fx-background-color: lightGreen; -fx-font-family: impact; -fx-font-size: 60; -fx-background-radius: 15; -fx-text-fill: white;" text="Meniu principal" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
